@@ -39,10 +39,34 @@ class ElectiveCourse(Course):
         return f'{super().__str__()} - Elective Type: {self.elective_type}'
 
 # example
-#----------
+# ----------
 # Example usage:
 course1 = CoreCourse("CS101", "Introduction to Computer Science", 3, True)
 course2 = ElectiveCourse("ART101", "Introduction to Painting", 2, "liberal arts")
 
 print(course1)
 print(course2)
+
+#----------------------------------------------------------------------------------------------------
+# Question 2: (5 Marks)
+# Create a Python module named employee that contains a class Employee with attributes name,
+# salary and methods get_name() and get_salary().
+# #Write a program to use this module to create an object of the Employee class
+# and display its name and salary.
+
+# module:employee.py
+
+
+
+# # main.py
+#
+# from employee import Employee
+#
+# # # Create an object of the Employee class
+# emp = Employee("Rashid Vadekandy Meethal", 100000)
+#
+# # Display the name and salary
+# print(f"Employee Name: {emp.get_name()}")
+# print(f"Employee Salary: {emp.get_salary()}")
+#
+
